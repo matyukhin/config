@@ -1,19 +1,18 @@
-" Requires:
-" vim-airline
-" vim-airline-themes
-" vim-syntastic
-
 set nocompatible
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-set relativenumber
+set number
 set showmatch
 set autoindent
 filetype indent on
 syntax enable
 colorscheme elflord
 
+" Requires the following plugins:
+" vim-airline
+" vim-airline-themes
+" vim-syntastic
 set signcolumn=yes
 highlight signcolumn ctermbg=234
 let g:syntastic_always_populate_loc_list = 0
